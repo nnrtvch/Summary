@@ -1,0 +1,3 @@
+npx create-react-app front
+
+use it in command promt in this directory

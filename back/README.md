@@ -5,6 +5,6 @@ back
 python init.py
 
 
-## Description 
+## Description
 for Mac correct file init:
-system("venv\bin\activate")
+system("venv/bin/activate")
