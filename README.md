@@ -1,2 +1,17 @@
-# Summary
+# CV
 Web app
+
+## Getting started back
+
+TO DO
+
+## Getting started front
+
+```shell
+npm install
+
+npm start
+
+```
+
+App will be hosted on localhost:3000
