@@ -8,6 +8,8 @@ TO DO
 ## Getting started front
 
 ```shell
+cd front
+
 npm install
 
 npm start
