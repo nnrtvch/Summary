@@ -2,10 +2,11 @@
 back
 
 ## Installation
-python init.py
+python __init__.py
 
 
 ## Description
 for Mac correct file init:
 system("venv/bin/activate")
 
+startpoint: main.py
