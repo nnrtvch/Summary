@@ -1,10 +1,10 @@
+"""Start point."""
 from flask import Flask
-app = Flask(__name__)
 
+from api.api import create_api
 
-@app.route('/')
-def hello():
-    return "Hello World!"
 
 if __name__ == '__main__':
-    app.run()
+    APP = Flask(__name__)
+    APP.register_blueprint(create_api())
+    APP.run()
