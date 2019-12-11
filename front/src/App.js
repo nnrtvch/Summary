@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 import './style/style.css';
 
 class App extends React.Component {
@@ -64,6 +65,18 @@ class App extends React.Component {
       </>
     );
   }
+  function App() {
+  const [summary, setSummary] = useState(null);
+
+  const fetchData = async () => {
+    const response = await axios.get(
+      'https://www.anapioficeandfire.com/api/books?pageSize=30'
+    );
+
+    setSummary(response.data);
+  };
+  fetchData();
+  };
 }
 
 export default App;
